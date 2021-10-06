@@ -1,0 +1,48 @@
+body{
+margin: 0px;
+padding: 0px;
+font-family: sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+.BoxContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.board{
+    width: 450px ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid rgb(80, 64, 79);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(240, 185, 140);
+    font-size: 5rem;
+    background-color: rgb(71, 128, 97);
+    font-family: cursive;
+}
+
+#text{
+color: olive;
+justify-content: center;
+}
+
+#restart{
+    padding: 10px 20px;
+    font-size: 2rem;
+    background-color: rgb(165, 131, 148);
+    color: rgb(27, 29, 16);
+    font-family: Arial, Helvetica, sans-serif ;
+}
